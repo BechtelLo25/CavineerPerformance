@@ -1,0 +1,57 @@
+body {
+    background-image: url("CavineersBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    background-size: 50%;
+    background-position-x: -75px;
+    background-position-y: 250px;
+    background-color: black;
+}
+
+.hometitle {
+    font-size: 50px;
+    color: red;
+    font-family: 'Courier New';
+}
+
+.homedescription {
+    font-size: 30px;
+    color: orange;
+    font-family: 'Arial';
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.homeinstruction {
+    font-size: 20px;
+    color: orange;
+    font-family: 'Arial';
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+select {
+    color: black;
+    font-size: 20px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: white;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.leave {
+    font-size: 45px;
+    background-image: url("MarylandFlag.jpg");
+    color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
+    cursor: pointer;
+    background-size: 55%;
+}
+
+.bodyalign {
+    text-align: center;
+}
