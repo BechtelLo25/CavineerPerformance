@@ -1,10 +1,10 @@
 body {
-    background-image: url("");
+    background-image: url("Res/Fahrenheit_2018.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
-    background-size: 25%;
-    background-position-y: 290px;
+    background-size: 30%;
+    background-position-y: 225px;
     background-color: black;
 }
 

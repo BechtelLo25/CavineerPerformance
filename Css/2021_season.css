@@ -1,10 +1,10 @@
 body {
-    background-image: url("");
+    background-image: url("Res/Mig_2021.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(0, 0, 0);
-    background-size: 25%;
-    background-position-y: 290px;
+    background-size: 40%;
+    background-position-y: 350px;
     background-color: black;
 }
 
@@ -14,30 +14,10 @@ body {
     font-family: 'Courier New';
 }
 
-.competitiontext {
+.desc {
+    font-size: 50px;
     color: red;
-    padding-left: 40%;
     font-family: 'Courier New';
-    font-size: 55px;
-}
-
-.robottext {
-    color: red;
-    padding-left: 40%;
-    font-family: 'Courier New';
-    font-size: 55px;
-}
-
-.robotdescription {
-    color: orange;
-    padding-left: 40%;
-    font-size: 30px;
-}
-
-.competitiondescription {
-    color: orange;
-    padding-left: 40%;
-    font-size: 30px;
 }
 
 .leave {
