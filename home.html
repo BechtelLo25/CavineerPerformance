@@ -9,10 +9,10 @@
     <title>Team 4541 Seasons Performance</title>
 </head>
 
-<body class="bodyalign" onload="checkWifi()">
+<body class="bodyalign">
 
     <h1 id="hometitle" class="hometitle">Team 4541 Season Performance Records</h1>
-    <h3 id="homedescription" class="homedescription">This apps purpose is to see the 4541 Cavineers robotics team's performance in competitions over the years</h3>
+    <h3 id="homedescription" class="homedescription">This app's purpose is to see the 4541 Cavineers robotics team's performance in competitions over the years</h3>
     <h4 id="homeinstruction" class="homeinstruction">Please select a year to view</h4>
     <br>
     <select id="year">
@@ -32,10 +32,40 @@
     <br>
     <br>
     <br>
-    <script></script>
-    <button id=" leaveHome " class="leave ">View Performance</button>
+    <script>
+        function change_page() {
+            let type = document.getElementById('year').value;
+            if (year != "") {
+                if (type == '2023') {
+                    window.location.href = "season_2023.html";
+                } else if (type == '2022') {
+                    window.location.href = "season_2022.html";
+                } else if (type == '2021') {
+                    window.location.href = "season_2021.html";
+                } else if (type == '2020') {
+                    window.location.href = "season_2020.html";
+                } else if (type == '2019') {
+                    window.location.href = "season_2019.html";
+                } else if (type == '2018') {
+                    window.location.href = "season_2018.html";
+                } else if (type == '2017') {
+                    window.location.href = "season_2017.html";
+                } else if (type == '2016') {
+                    window.location.href = "season_2016.html";
+                } else if (type == '2015') {
+                    window.location.href = "season_2015.html";
+                } else if (type == '2014') {
+                    window.location.href = "season_2014.html";
+                } else {
+                    window.location.href = "season_2013.html";
+                }
+            } else {
+                alert('No year chosen');
+            }
+        }
+    </script>
+    <button id="leaveHome" class="leave " onclick="change_page()">View Performance</button>
     </div>
-    <script src="Js/home.js "></script>
 </body>
 
 </html>
