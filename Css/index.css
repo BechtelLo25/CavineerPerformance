@@ -18,6 +18,7 @@ body {
     font-size: 50px;
     color: black;
     font-family: 'Courier New';
+    text-shadow: 2px 0 rgb(255, 255, 255), -1px 0 rgb(245, 245, 245), 0 2px rgb(255, 255, 255), 0 -1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1px 1px rgb(255, 255, 255);
 }
 
 .homedescription {
@@ -26,6 +27,7 @@ body {
     font-family: 'Arial';
     padding-left: 10%;
     padding-right: 10%;
+    text-shadow: 2px 0 rgb(255, 255, 255), -1px 0 rgb(245, 245, 245), 0 2px rgb(255, 255, 255), 0 -1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1px 1px rgb(255, 255, 255);
 }
 
 .homeinstruction {
@@ -34,6 +36,7 @@ body {
     font-family: 'Arial';
     padding-left: 10%;
     padding-right: 10%;
+    text-shadow: 2px 0 rgb(255, 255, 255), -1px 0 rgb(245, 245, 245), 0 2px rgb(255, 255, 255), 0 -1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1px 1px rgb(255, 255, 255);
 }
 
 select {
@@ -57,6 +60,7 @@ select {
     background-size: 55%;
     text-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black, 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
     animation: gradient 25s ease infinite;
+    box-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black, 3px 3px black, -3px -3px black, 3px -3px black, -3px 3px black;
 }
 
 .context {

@@ -12,12 +12,14 @@ body {
     font-size: 75px;
     color: red;
     font-family: 'Courier New';
+    text-shadow: 5px 0 black, -3px 0 black, 0 5px black, 0 -3px black, 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
 }
 
 .desc {
     font-size: 50px;
     color: red;
     font-family: 'Courier New';
+    text-shadow: 5px 0 black, -3px 0 black, 0 5px black, 0 -3px black, 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
 }
 
 .leave {
@@ -31,6 +33,7 @@ body {
     background-size: 55%;
     text-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black, 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
     animation: gradient 25s ease infinite;
+    box-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black, 3px 3px black, -3px -3px black, 3px -3px black, -3px 3px black;
 }
 
 .context {
