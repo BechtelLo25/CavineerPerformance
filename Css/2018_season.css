@@ -31,13 +31,13 @@ body {
 .robotdescription {
     color: orange;
     padding-left: 40%;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .competitiondescription {
     color: orange;
     padding-left: 40%;
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .leave {
@@ -51,6 +51,18 @@ body {
     background-size: 55%;
     text-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black, 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
     animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .bodyalign {
