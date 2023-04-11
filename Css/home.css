@@ -77,7 +77,7 @@ select {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 0, 0, 0.733);
+    background: rgb(255, 0, 0);
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
