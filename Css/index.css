@@ -15,7 +15,7 @@ body {
 }
 
 .hometitle {
-    font-size: 307%;
+    font-size: 300%;
     color: black;
     font-family: 'Courier New';
     text-shadow: 2px 0 rgb(255, 255, 255), -1px 0 rgb(245, 245, 245), 0 2px rgb(255, 255, 255), 0 -1px rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1px 1px rgb(255, 255, 255);
@@ -83,7 +83,7 @@ select {
     height: 122.222%;
     background: rgba(255, 0, 0, 0.623);
     animation: animate 25s linear infinite;
-    bottom: -60%;
+    bottom: -150px;
 }
 
 .circles li:nth-child(1) {
