@@ -79,7 +79,7 @@ body {
     height: 20px;
     background: rgba(124, 124, 124, 0.267);
     animation: animate 25s linear infinite;
-    bottom: -20%;
+    bottom: -60%;
 }
 
 .circles li:nth-child(3) {

@@ -83,7 +83,7 @@ select {
     height: 122.222%;
     background: rgba(255, 0, 0, 0.623);
     animation: animate 25s linear infinite;
-    bottom: -25%;
+    bottom: -60%;
 }
 
 .circles li:nth-child(1) {
